@@ -1,0 +1,7 @@
+# Backup files
+* 2.*
+*.py
+*.json
+
+# macOS
+.DS_Store
