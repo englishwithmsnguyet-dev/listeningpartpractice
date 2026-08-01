@@ -374,13 +374,7 @@ class VstepApp {
     }
 
     isItemUnlocked(partNum, id, isTheory = false) {
-        if (sessionStorage.getItem('vstep_unlocked') === 'true') {
-            return true;
-        }
-        
-        const lockKey = isTheory ? `theory_${partNum}_${id}` : `practice_${partNum}_${id}`;
-        const items = this.getUnlockedItems();
-        return items.includes(lockKey);
+        return true;
     }
 
     promptUnlock(partNum, id, isTheory, successCallback) {
@@ -1278,12 +1272,10 @@ Kết quả: ${correctCount} / ${totalQuestions} câu đúng (${accuracy}%)
 Thời gian nộp: ${new Date().toLocaleString('vi-VN')}`;
         
         navigator.clipboard.writeText(reportText).then(() => {
-            alert("Đã sao chép báo cáo vào khay nhớ tạm!\nHệ thống sẽ chuyển bạn sang trang Facebook River English Center để gửi báo cáo.");
-            window.open("https://www.facebook.com/anhnguRiverCT", "_blank");
+            alert("Đã sao chép báo cáo vào khay nhớ tạm!");
         }).catch(err => {
             console.error("Could not copy text: ", err);
             alert("Không thể tự động sao chép báo cáo. Vui lòng sao chép thủ công:\n\n" + reportText);
-            window.open("https://www.facebook.com/anhnguRiverCT", "_blank");
         });
     }
 
@@ -1308,12 +1300,10 @@ Danh sách bài đã làm:
         reportText += `\n\n---------------------------------------------\nTổng cộng đã làm: ${this.progress.history.length} bài.`;
         
         navigator.clipboard.writeText(reportText).then(() => {
-            alert("Đã sao chép báo cáo tổng hợp vào khay nhớ tạm!\nHệ thống sẽ chuyển bạn sang trang Facebook River English Center để gửi báo cáo.");
-            window.open("https://www.facebook.com/anhnguRiverCT", "_blank");
+            alert("Đã sao chép báo cáo tổng hợp vào khay nhớ tạm!");
         }).catch(err => {
             console.error("Could not copy text: ", err);
             alert("Không thể tự động sao chép báo cáo tổng hợp. Vui lòng sao chép thủ công:\n\n" + reportText);
-            window.open("https://www.facebook.com/anhnguRiverCT", "_blank");
         });
     }
 }
