@@ -426,6 +426,73 @@ window.VSTEP_DATA = {
             ],
             "vi_transcript": [
               "Chú ý, hành khách trên tàu lượn. Không tự ý kéo thanh an toàn xuống. Thanh an toàn sẽ tự động hạ xuống trước khi chuyến đi bắt đầu. <span class=\"highlight\">Để</span><span class=\"highlight\"> </span><span class=\"highlight\">tránh</span><span class=\"highlight\"> </span><span class=\"highlight\">bị</span><span class=\"highlight\"> </span><span class=\"highlight\">thương</span><span class=\"highlight\">, </span><span class=\"highlight\">đừng</span><span class=\"highlight\"> </span><span class=\"highlight\">cố</span><span class=\"highlight\"> </span><span class=\"highlight\">đứng</span><span class=\"highlight\"> </span><span class=\"highlight\">dậy</span><span class=\"highlight\"> </span><span class=\"highlight\">hoặc</span><span class=\"highlight\"> </span><span class=\"highlight\">thò</span><span class=\"highlight\"> </span><span class=\"highlight\">tay</span><span class=\"highlight\"> </span><span class=\"highlight\">ra</span><span class=\"highlight\"> </span><span class=\"highlight\">ngoài</span><span class=\"highlight\"> </span><span class=\"highlight\">xe</span><span class=\"highlight\"> </span><span class=\"highlight\">tàu</span><span class=\"highlight\"> </span><span class=\"highlight\">lượn</span><span class=\"highlight\"> </span><span class=\"highlight\">siêu</span><span class=\"highlight\"> </span><span class=\"highlight\">tốc</span><span class=\"highlight\">. </span>Trong trường hợp khẩn cấp, không được rời khỏi toa. Hãy ngồi yên và nhân viên công viên sẽ hỗ trợ bạn. Khi kết thúc chuyến đi, đừng cố rời khỏi chỗ ngồi cho đến khi tàu lượn siêu tốc dừng hẳn và thanh an toàn tự động được tháo ra."
+            ],
+            "vocabulary": [
+              {
+                "word": "attention",
+                "ipa": "/əˈtɛn.ʃən/",
+                "meaning": "sự chú ý (n)"
+              },
+              {
+                "word": "rider",
+                "ipa": "/ˈraɪ.dər/",
+                "meaning": "hành khách (trên tàu, xe) (n)"
+              },
+              {
+                "word": "safety bar",
+                "ipa": "/ˈseɪf.ti bɑːr/",
+                "meaning": "thanh an toàn (n)"
+              },
+              {
+                "word": "engage",
+                "ipa": "/ɪnˈɡeɪdʒ/",
+                "meaning": "gài vào, gắn vào (v)"
+              },
+              {
+                "word": "automatically",
+                "ipa": "/ˌɔː.təˈmæt.ɪ.kəl.i/",
+                "meaning": "một cách tự động (adv)"
+              },
+              {
+                "word": "avoid",
+                "ipa": "/əˈvɔɪd/",
+                "meaning": "tránh (v)"
+              },
+              {
+                "word": "injury",
+                "ipa": "/ˈɪn.dʒər.i/",
+                "meaning": "chấn thương (n)"
+              },
+              {
+                "word": "attempt",
+                "ipa": "/əˈtɛmpt/",
+                "meaning": "cố gắng (v)"
+              },
+              {
+                "word": "roller coaster",
+                "ipa": "/ˈroʊ.lər ˌkoʊs.tər/",
+                "meaning": "tàu lượn siêu tốc (n)"
+              },
+              {
+                "word": "emergency",
+                "ipa": "/ɪˈmɜː.dʒən.si/",
+                "meaning": "trường hợp khẩn cấp (n)"
+              },
+              {
+                "word": "personnel",
+                "ipa": "/ˌpɜː.səˈnɛl/",
+                "meaning": "nhân viên (n)"
+              },
+              {
+                "word": "assist",
+                "ipa": "/əˈsɪst/",
+                "meaning": "hỗ trợ (v)"
+              },
+              {
+                "word": "disengage",
+                "ipa": "/ˌdɪs.ɪnˈɡeɪdʒ/",
+                "meaning": "tháo ra, tách ra (v)"
+              }
             ]
           }
         ]
