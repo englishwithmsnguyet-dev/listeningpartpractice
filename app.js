@@ -859,6 +859,12 @@ class VstepApp {
             this.elements.reportScore.textContent = `${correctCount} / ${totalQuestions} câu đúng`;
             this.elements.reportAccuracy.textContent = `${Math.round((correctCount / totalQuestions) * 100)}%`;
             this.elements.practiceReportCard.classList.remove('hidden');
+
+            // Reward effort water drops for Lucky Clover Garden
+            if (window.FlowerGarden) {
+                const waterEarned = Math.max(5, correctCount * 2);
+                window.FlowerGarden.addWaterDrops(waterEarned, `Luyện nghe ${dataObj.title || 'VSTEP'} (${correctCount}/${totalQuestions} câu đúng)`);
+            }
         }
         
         // Populate and show inline explanations
