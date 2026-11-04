@@ -433,6 +433,9 @@ class VstepApp {
         const activePanel = document.getElementById(`view-${viewName}`);
         if (activePanel) {
             activePanel.classList.add('active');
+            if (viewName === 'flower-garden' && window.FlowerGarden) {
+                window.FlowerGarden.render();
+            }
         }
         
         // Update Sidebar menu
