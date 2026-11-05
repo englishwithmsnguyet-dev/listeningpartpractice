@@ -310,7 +310,7 @@ class VstepApp {
     /* --- APPLICATION ROUTING --- */
     handleRouting() {
         const hash = window.location.hash.replace('#', '') || 'dashboard';
-        const validViews = ['dashboard', 'part1', 'statistics', 'practice-run'];
+        const validViews = ['flower-garden', 'dashboard', 'part1', 'statistics', 'practice-run'];
         
         
         
@@ -448,6 +448,7 @@ class VstepApp {
         
         // Map Sidebar section labels for Part 1/2/3 to breadcrumbs
         const viewTitles = {
+            'flower-garden': { parent: 'Học nghe VSTEP', current: 'CHĂM HOA CHĂM HỌC' },
             'dashboard': { parent: 'Học nghe VSTEP', current: 'HOME PAGE' },
             'part1': { parent: 'Luyện tập', current: 'PART 01: SHORT TALKS/CONVERSATIONS' },
             'statistics': { parent: 'Tiện ích', current: 'Tiến độ học tập' },
